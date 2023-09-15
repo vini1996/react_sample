@@ -19,10 +19,10 @@ jobs:
       - name: Debug Secret Values
         run: |
           echo "DOCKER_USERNAME is ${{secrets.vinisiri}}"
-          echo "DOCKER_PASSWORD is ${{secrets.vinaysirige}}"
+          echo "DOCKER_PASSWORD is ${{secrets.dckr_pat_EVe5r6civSfU6FZuwTuFhwxeDsg}}"
         
       - name: Login to Docker Hub
-        run: docker login -u ${{secrets.vinisiri}} -p ${{secrets.vinaysirige}}
+        run: docker login -u ${{secrets.vinisiri}} -p ${{secrets.dckr_pat_EVe5r6civSfU6FZuwTuFhwxeDsg}}
         
      
 
