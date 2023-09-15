@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Login to Docker Hub
-        run: docker login -u ${{ secrets.vinisiri }} -p ${{ secrets.pd9wzmnhun31 }}
+        run: docker login -u ${{ secrets.vinisiri }} -p ${{ secrets.vinaysirige }}
 
       - name: Build and push Docker image
         run: |
