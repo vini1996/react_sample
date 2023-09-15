@@ -143,7 +143,7 @@ fetchMoreData = async () => {
           })}
         </div>
         </InfiniteScroll>
-        <button style={{position:'fixed',right:20, bottom:20}} onClick={this.backToTop}>Back to Top top</button>
+        <button style={{position:'fixed',right:20, bottom:20}} onClick={this.backToTop}>Back to Top changed in sirige-feature</button>
         {/* <div className="d-flex justify-content-between">
           <button disabled={this.state.page <= 1} type="button" className="btn btn-dark" onClick={this.handleprev}>&larr; Prev</button>
           <button disabled={this.state.page + 1 > Math.ceil(this.state.totalResults / this.props.pageSize)} type="button" className="btn btn-dark" onClick={this.handlenext}>Next &rarr;</button>
