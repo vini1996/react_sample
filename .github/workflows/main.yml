@@ -19,6 +19,9 @@ jobs:
 
       - name: Login to Docker Hub
         run: docker login -u ${{secrets.vinisiri}} -p ${{secrets.vinaysirige}}
+        
+      - name: Debug Password
+        run: echo "DOCKER_PASSWORD is ${{ secrets.DOCKER_PASSWORD }}"
 
       - name: Build and push Docker image
         run: |
