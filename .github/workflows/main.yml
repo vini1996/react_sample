@@ -17,7 +17,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: Debug Password
-        run: echo "DOCKER_PASSWORD is ${{ secrets.DOCKER_PASSWORD }}"
+        run: echo "DOCKER_PASSWORD is ${{ secrets.vinaysirige }}"
+
+      - name: Debug name
+        run: echo "DOCKER_name is ${{ secrets.vinisiri}}"
+        
       - name: Login to Docker Hub
         run: docker login -u ${{secrets.vinisiri}} -p ${{secrets.vinaysirige}}
         
