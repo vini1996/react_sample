@@ -23,4 +23,4 @@ jobs:
 
       - name: Run Docker Container
         run: |
-          docker run -it -p 8080:3000 ${{ secrets.DOCKERHUB_USERNAME}}/my-react-native-app:latest
+          docker run -it -p 8080:80 ${{ secrets.DOCKERHUB_USERNAME}}/my-react-native-app:latest
