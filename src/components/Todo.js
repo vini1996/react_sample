@@ -10,7 +10,7 @@ function Todo() {
       setTodo(user.slice(0,10))
       // console.log(user)
     }
-    fetchTodo()
+    fetchTodo ()
    
   },[])
   let renderedUsers = todo.map((value) => {
