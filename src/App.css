@@ -8,7 +8,7 @@
 }
 .blank{
   font-size: 30px;
-  color: orange;
+  color: pink;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
